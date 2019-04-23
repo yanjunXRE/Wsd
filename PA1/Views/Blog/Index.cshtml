@@ -1,0 +1,71 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        
+        <div class="col-sm-4">
+            <div class="box">
+                <h3>Order Summary    <strong>Order ID:KE13455V</strong></h3>
+                <table class="table">
+                    <tr>
+                    <th>Item </th>
+                    <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Wing Zone (Mandai)</td>
+                        <td>$4.80</td>
+                    </tr>
+                    <tr>
+                        <td>Popeyes (Toa Payoh)</td>
+                        <td>$7.80</td>
+                    </tr>
+                    <tr>
+                        <td>Oasis Steak & Grill </td>
+                        <td>$8</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Bones N Barrels (Sentosa)
+                        </td>
+                        <td> $8.40</td>
+                    </tr>
+                </table>
+              
+                <strong>Total:$29</strong>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="box">
+                <h2>Pls fill in the web form to process your order</h2>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        * <label for="customerid">Food description:</label>
+                        <input type="text" class="form-control" id="text" placeholder="Food Description" name="id" required>
+                    </div>
+                    <div class="form-group">
+                        * <label for="pwd">Delivery loaction:</label>
+                        <input type="text" class="form-control" id="pwd" placeholder="Delivery loaction" name="pwd" required>
+                    </div>
+                    <div class="form-group">
+                        * <label for="pwd">Delivery date:</label>
+                        <input type="date" class="form-control" id="pwd" placeholder="Delivery date" name="pwd" required>
+                    </div>
+                    <div class="form-group">
+                        * <label for="pwd">Contact number:</label>
+                        <input type="number" class="form-control" id="pwd" placeholder="Contact number" name="pwd" required>
+                    </div>
+                    <div class="form-group">
+                        * <label for="pwd">Email:</label>
+                        <input type="email" class="form-control" id="pwd" placeholder="Email" name="pwd" required>
+                    </div>
+                    
+
+                        <a href="http://localhost:50765/Contact">
+                            <input type="button" class="btn btn-default" value="Submit">
+                        </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

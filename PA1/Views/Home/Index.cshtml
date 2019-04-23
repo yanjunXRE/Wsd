@@ -1,0 +1,137 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/sush0istock-gkrphoto.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="~/img/untitled.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="~/img/favourites-by-foodpanda-FP.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+       
+        <div class="box">
+            <div class="row" align="center">
+
+                <hr>
+                <h2 class="intro-text text-center">
+                    Services
+                </h2>
+                <hr>
+                <div class="col-sm-4">
+
+                    <img class="img-responsive img-full" src="img/restaurants.png" alt="">
+                    <h3>Great restaurants</h3>
+                    <p>Eat your way around the world,one delicoius restaurant at a time.</p>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <img class="img-responsive img-full" src="img/foodies.png" alt="">
+                    <h3>Picked by foodies</h3>
+                    <p>Enjoy only shiok food delivery, picked by those who love eating.</p>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <img class="img-responsive img-full" src="img/delivery.png" alt="">
+                    <h3>Delivery time</h3>
+                    <p>Never be “hangry” again. We’ll be there on the dot.</p>
+
+                </div>
+            </div>
+
+
+        </div>
+        
+
+        <div class="box">
+            <div class="row" align="center">
+
+                <hr>
+                <h2 class="intro-text text-center">
+                    Food item
+                </h2>
+                <hr>
+                <div class="col-sm-3">
+                   
+                    <a href="http://localhost:50765/About">
+
+                        <img class="img-responsive img-full" src="img/untitled3.png" alt="">
+                        <h3>Wing Zone (Mandai)</h3>
+
+                    </a>
+
+                </div>
+                <div class="col-sm-3">
+                    <a href="http://localhost:50765/About">
+                        <img class="img-responsive img-full" src="img/untitled4.png" alt="">
+                
+                        <h3>Popeyes (Toa Payoh)</h3>
+                    </a>
+
+                </div>
+                <div class="col-sm-3">
+                    <a href="http://localhost:50765/About">
+                        <img class="img-responsive img-full" src="img/untitled5.png" alt="">
+                        
+                        <h3>Oasis Steak & Grill</h3>
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="http://localhost:50765/About">
+                        <img class="img-responsive img-full" src="img/untitled6.png" alt="">
+                       
+                        <h3>Bones N Barrels (Sentosa)</h3>
+                    </a>
+                </div>
+            </div>
+            <a href=""><button class="btn btn-default" align="center">View more</button></a>
+
+        </div>
+
+    </div>
+@section scripts
+{
+<script>
+    // Activates the Carousel
+    $('.carousel').carousel({
+        interval: 5000
+    })
+</script>
+}
