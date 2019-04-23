@@ -1,0 +1,183 @@
+C:\Users\User\source\repos\PA1\PA1\bin\PA1.dll.config
+C:\Users\User\source\repos\PA1\PA1\bin\PA1.dll
+C:\Users\User\source\repos\PA1\PA1\bin\PA1.pdb
+C:\Users\User\source\repos\PA1\PA1\bin\Antlr3.Runtime.dll
+C:\Users\User\source\repos\PA1\PA1\bin\EntityFramework.dll
+C:\Users\User\source\repos\PA1\PA1\bin\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Newtonsoft.Json.dll
+C:\Users\User\source\repos\PA1\PA1\bin\Owin.dll
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.Helpers.dll
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.Mvc.dll
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.Optimization.dll
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.Razor.dll
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.WebPages.dll
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\source\repos\PA1\PA1\bin\WebGrease.dll
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.Helpers.xml
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.Mvc.xml
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.Optimization.xml
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.Razor.xml
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.WebPages.xml
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\source\repos\PA1\PA1\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Newtonsoft.Json.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Antlr3.Runtime.pdb
+C:\Users\User\source\repos\PA1\PA1\bin\EntityFramework.xml
+C:\Users\User\source\repos\PA1\PA1\bin\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\source\repos\PA1\PA1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\source\repos\PA1\PA1\obj\Debug\PA1.csprojAssemblyReference.cache
+C:\Users\User\source\repos\PA1\PA1\obj\Debug\PA1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PA1\PA1\obj\Debug\PA1.csproj.CopyComplete
+C:\Users\User\source\repos\PA1\PA1\obj\Debug\PA1.dll
+C:\Users\User\source\repos\PA1\PA1\obj\Debug\PA1.pdb
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\PA1.dll.config
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\PA1.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\PA1.pdb
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Antlr3.Runtime.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\EntityFramework.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\EntityFramework.SqlServer.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.Core.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Cookies.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Facebook.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Google.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.OAuth.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Twitter.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Web.Infrastructure.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Newtonsoft.Json.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Owin.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Helpers.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Mvc.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Optimization.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Razor.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.Deployment.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.Razor.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\WebGrease.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Helpers.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Mvc.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Optimization.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Razor.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.Deployment.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.Razor.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Newtonsoft.Json.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Antlr3.Runtime.pdb
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\EntityFramework.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\EntityFramework.SqlServer.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.Core.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Facebook.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Cookies.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.OAuth.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Google.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Twitter.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.csprojAssemblyReference.cache
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.csproj.CoreCompileInputs.cache
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.csproj.CopyComplete
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.pdb
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Net.Http.Formatting.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Http.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Http.WebHost.dll
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Net.Http.Formatting.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Http.xml
+F:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Http.WebHost.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\PA1.dll.config
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\PA1.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\PA1.pdb
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Antlr3.Runtime.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\EntityFramework.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\EntityFramework.SqlServer.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.Core.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Cookies.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Facebook.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Google.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.OAuth.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Twitter.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Web.Infrastructure.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Newtonsoft.Json.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Owin.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Net.Http.Formatting.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Helpers.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Http.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Http.WebHost.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Mvc.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Optimization.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Razor.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.Deployment.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.Razor.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\WebGrease.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Net.Http.Formatting.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Http.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Http.WebHost.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Helpers.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Mvc.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Optimization.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.Razor.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.Deployment.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\System.Web.WebPages.Razor.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Newtonsoft.Json.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Antlr3.Runtime.pdb
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\EntityFramework.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\EntityFramework.SqlServer.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.Core.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Facebook.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Cookies.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.OAuth.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Google.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.Twitter.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.csprojAssemblyReference.cache
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.csproj.CoreCompileInputs.cache
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.csproj.CopyComplete
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.dll
+D:\WSD\23_Tan Yan Jun_PA1\PA1\PA1\obj\Debug\PA1.pdb
