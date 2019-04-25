@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace PA1.Controllers
 {
-    public class LoginController : Controller
+    public class CheckoutController : Controller
     {
         public ActionResult Index()
         {
