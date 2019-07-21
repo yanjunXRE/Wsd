@@ -69,7 +69,7 @@ namespace PA1.Controllers
                 newRecord.Add(collection.EmailAddress);
                 newRecord.Add(collection.ContactNumber);
                 object[] recordItem = newRecord.ToArray();
-                int result = db.Database.ExecuteSqlCommand("INSERT INTO orders " + "(FoodDescription,DeliveryAddress,DeliveryDate,DeliveryTime,EmailAddress,ContactNumber)" + "VALUES(@p0,@p1,@p2,@p3,@p4,@p5)", recordItem);
+                int result = db.Database.ExecuteSqlCommand("INSERT INTO orders " + "(FoodDescription,DeliveryAddress,DeliveryDate,DeliveryTime,EmailAddress,ContactNumber,OrderStatus)" + "VALUES(@p0,@p1,@p2,@p3,@p4,@p5,'Pending')", recordItem);
                 if (result > 0)
                 {
                     ViewBag.msg = " Orders record is added";

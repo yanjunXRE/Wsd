@@ -28,7 +28,7 @@ namespace PA1.Controllers
                 if (data != null)
                 {
                     Session["customerID"] = login.CustomerID.ToString();
-                    return RedirectToAction( "Index","Portal");
+                    return RedirectToAction( "Create","Portal");
                 }
                 else
                 {
