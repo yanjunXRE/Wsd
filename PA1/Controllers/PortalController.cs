@@ -14,27 +14,49 @@ namespace PA1.Controllers
         DataContext db = new DataContext();
         public ActionResult Index()
         {
-            var data = db.Order.SqlQuery("SELECT * FROM Orders").ToList();
-            return View(data);
+            if (Session["CustomerID"] != null)
+            {
+                var data = db.Order.SqlQuery("SELECT * FROM Orders").ToList();
+                return View(data);
+            }
+            else
+            {
+                return RedirectToAction("Index","Login");
+            }
         }
 
         // GET: Portal/Details/5
         public ActionResult Details(int id)
         {
-            var data = db.Order.SqlQuery("Select * From Orders where OrderID=@p0", id).SingleOrDefault();
-            return View(data);
+            if (Session["CustomerID"] != null)
+            {
+                var data = db.Order.SqlQuery("Select * From Orders where OrderID=@p0", id).SingleOrDefault();
+                return View(data);
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
         }
 
         // GET: Portal/Create
         public ActionResult Create()
         {
+            if (Session["CustomerID"] != null) { 
             return View();
         }
+            else
+            {
+                return RedirectToAction("Index");
+    }
+}
 
         // POST: Portal/Create
         [HttpPost]
         public ActionResult Create(Order collection)
         {
+            if(Session["CustomerID"] != null)
+            { 
             try
             {
                 // TODO: Add insert logic here
@@ -58,19 +80,31 @@ namespace PA1.Controllers
             {
                 return View();
             }
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
         }
 
         // GET: Portal/Create
         public ActionResult Edit(int id)
         {
-            var data = db.Order.SqlQuery("SELECT * FROM Orders WHERE OrderID =@p0", id).SingleOrDefault();
-            return View(data);
+            if (Session["CustomerID"] != null) {
+                var data = db.Order.SqlQuery("SELECT * FROM Orders WHERE OrderID =@p0", id).SingleOrDefault();
+                return View(data);
+            
         }
+            else
+            {
+                return RedirectToAction("Index");
+    }
+}
 
         // POST: Portal/Create
         [HttpPost]
         public ActionResult Edit(int id,Order collection)
-        {
+        {if (Session["CustomerID"] != null) { 
             try
             {
                 // TODO: Add insert logic here
@@ -96,17 +130,28 @@ namespace PA1.Controllers
                 return View();
             }
         }
+            else
+            {
+                return RedirectToAction("Index");
+    }
+}
         // GET: Portal/Delete/5
         public ActionResult Delete(int id)
-        {
-            var data = db.Order.SqlQuery("SELECT * FROM Orders WHERE OrderID=@p0", id).SingleOrDefault();
-            return View(data);
-        }
+        { if (Session["CustomerID"] != null) {
+                var data = db.Order.SqlQuery("SELECT * FROM Orders WHERE OrderID=@p0", id).SingleOrDefault();
+                return View(data);
+            }
+        
+            else
+            {
+                return RedirectToAction("Index");
+    }
+}
 
         // POST: Portal/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
-        {
+        { if(Session["CustomerID"] != null) { 
             try
             {
                 // TODO: Add delete logic here
@@ -123,5 +168,10 @@ namespace PA1.Controllers
                 return View();
             }
         }
+            else
+            {
+                return RedirectToAction("Index");
+    }
+}
     }
 }
