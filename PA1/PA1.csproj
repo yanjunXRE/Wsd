@@ -225,7 +225,12 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Index.cshtml" />
     <Content Include="Views\Portal\Index.cshtml" />
+    <Content Include="Views\Portal\Details.cshtml" />
+    <Content Include="Views\Portal\Create.cshtml" />
+    <Content Include="Views\Portal\Edit.cshtml" />
+    <Content Include="Views\Portal\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

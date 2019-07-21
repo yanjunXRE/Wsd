@@ -4,66 +4,71 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Food_description)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Delivery_address)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Delivery_date)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Delivery_time)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Email_address)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Contact_number)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Order_status)
-        </th>
-        <th></th>
-    </tr>
+<div class="container">
+    <div class="box">
+        <h2>Portal</h2>
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FoodDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DeliveryAddress)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DeliveryDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DeliveryTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmailAddress)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ContactNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OrderStatus)
+                </th>
+                <th></th>
+            </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Food_description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Delivery_address)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Delivery_date)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Delivery_time)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email_address)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Contact_number)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Order_status)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.OrderID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.OrderID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.OrderID })
-        </td>
-    </tr>
-}
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FoodDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DeliveryAddress)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DeliveryDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DeliveryTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EmailAddress)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ContactNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderStatus)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.OrderID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.OrderID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.OrderID })
+                    </td>
+                </tr>
+            }
 
-</table>
+        </table>
+    </div>
+    </div>
