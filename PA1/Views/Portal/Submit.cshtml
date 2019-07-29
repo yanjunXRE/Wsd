@@ -20,7 +20,8 @@
     <div class="form-group">
         @Html.LabelFor(model => model.FoodDescription, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.FoodDescription)
+            @Html.HiddenFor(model => model.FoodDescription)
+            @Html.DisplayNameFor(model => model.FoodDescription)
             @Html.ValidationMessageFor(model => model.FoodDescription)
         </div>
     </div>
@@ -28,7 +29,8 @@
     <div class="form-group">
         @Html.LabelFor(model => model.DeliveryAddress, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.DeliveryAddress)
+            @Html.HiddenFor(model => model.DeliveryAddress)
+            @Html.DisplayNameFor(model => model.DeliveryAddress)
             @Html.ValidationMessageFor(model => model.DeliveryAddress)
         </div>
     </div>
@@ -36,7 +38,8 @@
     <div class="form-group">
         @Html.LabelFor(model => model.DeliveryDateTime, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.DeliveryDateTime)
+            @Html.HiddenFor(model => model.DeliveryDateTime)
+            @Html.DisplayNameFor(model => model.DeliveryDateTime)
             @Html.ValidationMessageFor(model => model.DeliveryDateTime)
         </div>
     </div>
@@ -46,7 +49,8 @@
     <div class="form-group">
         @Html.LabelFor(model => model.EmailAddress, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.EmailAddress)
+            @Html.HiddenFor(model => model.EmailAddress)
+            @Html.DisplayNameFor(model => model.EmailAddress)
             @Html.ValidationMessageFor(model => model.EmailAddress)
         </div>
     </div>
@@ -54,12 +58,19 @@
     <div class="form-group">
         @Html.LabelFor(model => model.ContactNumber, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.ContactNumber)
+            @Html.HiddenFor(model => model.ContactNumber)
+            @Html.DisplayNameFor(model => model.ContactNumber)
             @Html.ValidationMessageFor(model => model.ContactNumber)
         </div>
     </div>
-   
-
+    <div class="form-group">
+        @Html.LabelFor(model => model.CustomerID, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.HiddenFor(model => model.CustomerID)
+            @Html.DisplayNameFor(model => model.CustomerID)
+            @Html.ValidationMessageFor(model => model.CustomerID)
+        </div>
+    </div>
 
     <div class="form-group">
         <div class=" col-md-10">
@@ -67,7 +78,6 @@
             {
                 <h5>@ViewBag.msg</h5>
             }
-            `
         </div>
     </div>
     <div class="form-group">
@@ -76,12 +86,12 @@
         </div>
     </div>
 </div>
-    }   `
+    }
 
     <div>
         @Html.ActionLink("Back to List", "Index")
     </div>
-    </div>
-    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</div>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

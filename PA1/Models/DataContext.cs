@@ -11,5 +11,8 @@ namespace PA1.Models
         public DataContext() : base("conn") { }
         public DbSet<customer> customer { get; set; }
         public DbSet<Order> Order { get; set; }
+        public DbSet<AcceptedOrder> AcceptedOrder { get; set; }
+       
+
     }
 }

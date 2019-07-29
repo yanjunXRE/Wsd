@@ -8,8 +8,8 @@ using System.Web;
 namespace PA1.Models
 {
  
-        [Table("Orders")]
-        public class Order
+        [Table("AcceptedOrders")]
+        public class AcceptedOrder
         {
             [Key]
             public int OrderID { get; set; }

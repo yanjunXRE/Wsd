@@ -1,33 +1,25 @@
-﻿@model IEnumerable<PA1.Models.Order>
+﻿@model IEnumerable<PA1.Models.AcceptedOrder>
 
 @{
-    ViewBag.Title = "Unaccepted Order";
+    ViewBag.Title = "Accepted";
 }
-
-
-<div class="container">
     <div class="box">
-        <h2>Unaccepted Order</h2>
+        <h2>Accepted</h2>
+
         <p>
-
-
-
-
-
             @Html.ActionLink("Logout:" + Session["CustomerID"], "LogOut", "Portal")
-            @Html.ActionLink("AcceptedOrder", "Accepted")
-           <a href="http://localhost:50765#fooditem">Back to menu</a>
+            @Html.ActionLink("Back to UnacceptedOrder", "Index")
+            <a href="http://localhost:50765#fooditem">Back to menu</a>
         </p>
-       
         <table class="table">
             <tr>
+
                 <th>
                     @Html.DisplayNameFor(model => model.FoodDescription)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.DeliveryAddress)
                 </th>
-               
                 <th>
                     @Html.DisplayNameFor(model => model.DeliveryDateTime)
                 </th>
@@ -46,6 +38,7 @@
             @foreach (var item in Model)
             {
                 <tr>
+
                     <td>
                         @Html.DisplayFor(modelItem => item.FoodDescription)
                     </td>
@@ -55,7 +48,6 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.DeliveryDateTime)
                     </td>
-                 
                     <td>
                         @Html.DisplayFor(modelItem => item.EmailAddress)
                     </td>
@@ -65,16 +57,9 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.OrderStatus)
                     </td>
-                    <td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.OrderID }) |
-                        @Html.ActionLink("Details", "Details", new { id = item.OrderID }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.OrderID }) |
-                        @Html.ActionLink("Submit", "Submit", new { id = item.OrderID })
 
-                    </td>
                 </tr>
             }
 
         </table>
-    </div>
     </div>

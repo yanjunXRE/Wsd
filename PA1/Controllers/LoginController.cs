@@ -10,6 +10,7 @@ namespace PA1.Controllers
     public class LoginController : Controller
     {
         DataContext db = new DataContext();
+       
         public ActionResult Index()
         {
             return View();
@@ -28,7 +29,7 @@ namespace PA1.Controllers
                 if (data != null)
                 {
                     Session["customerID"] = login.CustomerID.ToString();
-                    return RedirectToAction( "Create","Portal");
+                    return RedirectToAction( "Index","Portal");
                 }
                 else
                 {

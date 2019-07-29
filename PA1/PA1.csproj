@@ -184,6 +184,7 @@
     <Compile Include="Models\customer.cs" />
     <Compile Include="Models\DataContext.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\AcceptedOrder.cs" />
     <Compile Include="Models\order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -233,6 +234,9 @@
     <Content Include="Views\Portal\Delete.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Register\Index.cshtml" />
+    <Content Include="Views\Portal\Submit.cshtml" />
+    <Content Include="Views\Portal\Accepted.cshtml" />
+    <Content Include="Views\Portal\LogOut.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
