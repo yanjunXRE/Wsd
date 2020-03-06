@@ -36,15 +36,22 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.DeliveryDateTime, htmlAttributes: new { @class = "control-label col-md-2" })
+        @Html.LabelFor(model => model.DeliveryDate, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.HiddenFor(model => model.DeliveryDateTime)
-            @Html.DisplayNameFor(model => model.DeliveryDateTime)
-            @Html.ValidationMessageFor(model => model.DeliveryDateTime)
+            @Html.HiddenFor(model => model.DeliveryDate)
+            @Html.DisplayNameFor(model => model.DeliveryDate)
+            @Html.ValidationMessageFor(model => model.DeliveryDate)
         </div>
     </div>
 
-    <
+    <div class="form-group">
+        @Html.LabelFor(model => model.DeliveryTime, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.HiddenFor(model => model.DeliveryTime)
+            @Html.DisplayNameFor(model => model.DeliveryTime)
+            @Html.ValidationMessageFor(model => model.DeliveryTime)
+        </div>
+    </div>
 
     <div class="form-group">
         @Html.LabelFor(model => model.EmailAddress, htmlAttributes: new { @class = "control-label col-md-2" })

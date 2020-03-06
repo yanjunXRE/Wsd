@@ -87,13 +87,13 @@ namespace PA1.Controllers
 
                     newRecord.Add(collection.FoodDescription);
                     newRecord.Add(collection.DeliveryAddress);
-                    newRecord.Add(collection.DeliveryDateTime);
-
+                    newRecord.Add(collection.DeliveryDate);
+                    newRecord.Add(collection.DeliveryTime);
                     newRecord.Add(collection.EmailAddress);
                     newRecord.Add(collection.ContactNumber);
                     object[] recordItem = newRecord.ToArray();
 
-                    int result = db.Database.ExecuteSqlCommand("UPDATE orders" + " SET FoodDescription=@p0,DeliveryAddress=@p1,DeliveryDateTime=@p2,EmailAddress=@p3,ContactNumber=@p4 " + "WHERE OrderID=" + id, recordItem);
+                    int result = db.Database.ExecuteSqlCommand("UPDATE orders" + " SET FoodDescription=@p0,DeliveryAddress=@p1,DeliveryDate=@p2,DeliveryTime=@p3,EmailAddress=@p4,ContactNumber=@p5 " + "WHERE OrderID=" + id, recordItem);
                     if (result > 0)
                     {
                         ViewBag.msg = " Orders record is updated";
@@ -176,7 +176,8 @@ namespace PA1.Controllers
 
                     newRecord.Add(collection.FoodDescription);
                     newRecord.Add(collection.DeliveryAddress);
-                    newRecord.Add(collection.DeliveryDateTime);
+                    newRecord.Add(collection.DeliveryDate);
+                    newRecord.Add(collection.DeliveryTime);
                     newRecord.Add(collection.EmailAddress);
                     newRecord.Add(collection.ContactNumber);
                     newRecord.Add("Accepted");
@@ -185,7 +186,7 @@ namespace PA1.Controllers
 
                     object[] recordItem = newRecord.ToArray();
 
-                        int results = db.Database.ExecuteSqlCommand("INSERT INTO AcceptedOrders"+ "(FoodDescription,DeliveryAddress,DeliveryDateTIme,EmailAddress,ContactNumber,OrderStatus,CustomerID)" + " VALUES(@p0,@p1,@p2,@p3,@p4,@p5,@p6)" , recordItem);
+                        int results = db.Database.ExecuteSqlCommand("INSERT INTO AcceptedOrders"+ "(FoodDescription,DeliveryAddress,DeliveryDate,DeliveryTime,EmailAddress,ContactNumber,OrderStatus,CustomerID)" + " VALUES(@p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7)" , recordItem);
                   //  int results = db.Database.ExecuteSqlCommand("INSERT INTO AcceptedOrders" + "(DeliveryDateTIme,ContactNumber,CustomerID)" + " VALUES(@p2,@p4,@p6)", recordItem);
                     int result = db.Database.ExecuteSqlCommand("Delete FROM Orders WHERE  OrderID= " + id);
 

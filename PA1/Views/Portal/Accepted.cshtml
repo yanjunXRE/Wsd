@@ -21,7 +21,10 @@
                     @Html.DisplayNameFor(model => model.DeliveryAddress)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.DeliveryDateTime)
+                    @Html.DisplayNameFor(model => model.DeliveryDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DeliveryTime)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.EmailAddress)
@@ -37,28 +40,31 @@
 
             @foreach (var item in Model)
             {
-                <tr>
+        <tr>
 
-                    <td>
-                        @Html.DisplayFor(modelItem => item.FoodDescription)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DeliveryAddress)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DeliveryDateTime)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EmailAddress)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ContactNumber)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.OrderStatus)
-                    </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FoodDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderStatus)
+            </td>
 
-                </tr>
+        </tr>
             }
 
         </table>

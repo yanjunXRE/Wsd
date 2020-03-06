@@ -22,13 +22,16 @@ namespace PA1.Controllers
                 {
                 string food = Request.Form["food"];
 
-               // var dates = System.DateTime.Today.ToString("dd/MM/yy");
-                
-                DateTime dt = DateTime.Now; // or something like this
-                dt = dt.AddHours(1);
-                
+                // var dates = System.DateTime.Today.ToString("dd/MM/yy");
 
+                var dt = DateTime.Now.Date; // or something like this
+                var times = DateTime.Now;
                 
+                times = times.AddHours(1);
+               var currentTime = times.ToString("hh: mm tt");
+
+
+
 
                 // TODO: Add insert logic here
                 List<object> newRecord = new List<object>();
@@ -37,6 +40,7 @@ namespace PA1.Controllers
 
                
                 newRecord.Add(dt);
+                newRecord.Add(currentTime);
                 newRecord.Add(Session["CustomerID"]);
                     object[] recordItem = newRecord.ToArray();
                 
@@ -44,7 +48,7 @@ namespace PA1.Controllers
 
                 if (Session["CustomerID"] != null)
                 {
-                    int result = db.Database.ExecuteSqlCommand("INSERT INTO orders " + "(FoodDescription,DeliveryDateTIme,CustomerID,OrderStatus,ContactNumber)" + "VALUES(@p0,@p1,@p2,'Pending' ,000)", recordItem);
+                    int result = db.Database.ExecuteSqlCommand("INSERT INTO orders " + "(FoodDescription,DeliveryDate,DeliveryTime,CustomerID,OrderStatus,ContactNumber)" + "VALUES(@p0,@p1,@p2,@p3,'Pending' ,000)", recordItem);
                     if (result > 0)
                     {
                         ViewBag.msg = " Orders record is added";
